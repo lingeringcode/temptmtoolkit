@@ -9,7 +9,7 @@ try:
     import lda
     from sklearn.decomposition import LatentDirichletAllocation
 
-    from tmtoolkit.topicmod import evaluate, tm_lda, tm_sklearn, tm_gensim
+    from temptmtoolkit.topicmod import evaluate, tm_lda, tm_sklearn, tm_gensim
 except ImportError:
     pytest.skip('not all topic modeling packages are installed; skipping topic modeling evaluation tests',
                 allow_module_level=True)

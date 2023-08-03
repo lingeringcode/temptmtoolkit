@@ -29,11 +29,11 @@ from spacy.tokens import Doc
 from spacy.util import get_installed_models
 from scipy.sparse import csr_matrix
 
-from tmtoolkit import tokenseq
-from tmtoolkit.utils import flatten_list
-from tmtoolkit.corpus._common import LANGUAGE_LABELS, TOKENMAT_ATTRS, STD_TOKEN_ATTRS
+from temptmtoolkit import tokenseq
+from temptmtoolkit.utils import flatten_list
+from temptmtoolkit.corpus._common import LANGUAGE_LABELS, TOKENMAT_ATTRS, STD_TOKEN_ATTRS
 TOKENMAT_ATTRS = TOKENMAT_ATTRS - {'whitespace', 'token', 'sent_start'}
-from tmtoolkit import corpus as c
+from temptmtoolkit import corpus as c
 from ._testtools import strategy_str_str_dict_printable
 from ._testtextdata import textdata_sm
 

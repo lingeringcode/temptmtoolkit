@@ -6,7 +6,7 @@ Markus Konrad <markus.konrad@wzb.eu>
 
 import numpy as np
 from scipy.sparse import coo_matrix
-from tmtoolkit.utils import pickle_data
+from temptmtoolkit.utils import pickle_data
 
 
 #%%

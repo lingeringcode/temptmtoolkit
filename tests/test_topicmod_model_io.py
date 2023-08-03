@@ -10,7 +10,7 @@ import pandas as pd
 
 from ._testtools import strategy_2d_prob_distribution
 
-from tmtoolkit.topicmod import model_io
+from temptmtoolkit.topicmod import model_io
 
 
 def test_save_load_ldamodel_pickle():

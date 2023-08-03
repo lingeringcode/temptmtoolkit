@@ -4,7 +4,7 @@ from hypothesis import given, strategies as st
 
 from ._testtools import strategy_dtm
 
-from tmtoolkit.topicmod._eval_tools import split_dtm_for_cross_validation
+from temptmtoolkit.topicmod._eval_tools import split_dtm_for_cross_validation
 
 
 @given(

@@ -9,13 +9,13 @@ from codecs import open
 
 from setuptools import setup, find_packages
 
-__title__ = 'tmtoolkit'
+__title__ = 'temptmtoolkit'
 __version__ = '0.11.2'
-__author__ = 'Markus Konrad'
+__author__ = 'Markus Konrad modded by Chris Lindgren'
 __license__ = 'Apache License 2.0'
 
 
-GITHUB_URL = 'https://github.com/WZBSocialScienceCenter/tmtoolkit'
+GITHUB_URL = 'https://github.com/lingeringcode/temptmtoolkit'
 
 DEPS_BASE = ['numpy>=1.22.0', 'scipy>=1.7.0', 'globre>=0.1.5',
              'pandas>=1.4.0', 'xlrd>=2.0.0', 'openpyxl>=3.0.0',

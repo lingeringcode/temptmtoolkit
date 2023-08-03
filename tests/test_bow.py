@@ -6,7 +6,7 @@ from scipy.sparse import coo_matrix, csr_matrix, issparse
 
 from ._testtools import strategy_dtm
 
-from tmtoolkit import bow
+from temptmtoolkit import bow
 
 try:
     import gensim

@@ -15,8 +15,8 @@ from hypothesis import given, strategies as st
 from hypothesis.extra.numpy import arrays, array_shapes
 
 from ._testtools import strategy_tokens, strategy_2d_array, strategy_lists_of_tokens
-from tmtoolkit.utils import as_chararray, flatten_list
-from tmtoolkit import tokenseq
+from temptmtoolkit.utils import as_chararray, flatten_list
+from temptmtoolkit import tokenseq
 
 
 @pytest.mark.parametrize('tokens, expected', [

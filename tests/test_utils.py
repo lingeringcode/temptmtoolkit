@@ -13,7 +13,7 @@ from scipy.sparse import coo_matrix, isspmatrix_csr
 
 from ._testtools import strategy_dtm_small
 
-from tmtoolkit.utils import (pickle_data, unpickle_file, flatten_list, greedy_partitioning,
+from temptmtoolkit.utils import (pickle_data, unpickle_file, flatten_list, greedy_partitioning,
                              mat2d_window_from_indices, combine_sparse_matrices_columnwise, path_split, read_text_file,
                              linebreaks_win2unix, split_func_args, empty_chararray, as_chararray, merge_dicts,
                              merge_sets, sample_dict, enable_logging, set_logging_level, disable_logging, dict2df,
